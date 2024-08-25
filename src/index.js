@@ -13,7 +13,6 @@ configViewEngine(app)
 //route
 app.use('/', routers);
 
-
 app.listen(port, host, () => {
   console.log(`Server running at: http://${host}:${port}`)
-}) 
+})
